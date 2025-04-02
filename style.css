@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe6e6;
+    text-align: center;
+    padding: 40px;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color: #ff6699;
+    font-size: 28px;
+}
+
+.message {
+    font-size: 18px;
+    color: #333;
+    text-align: left;
+    padding: 20px;
+}
+
+.message h3 {
+    color: #ff3366;
+    text-align: center;
+    font-size: 24px;
+}
+
+.message p {
+    margin: 15px 0;
+    line-height: 1.6;
+}
+
+img {
+    width: 120px;
+    display: block;
+    margin: 10px auto;
+}
+
+button {
+    background-color: #ff6699;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #ff3366;
+    transform: scale(1.1);
+}
+/* Floating Love Emojis */
+.love-emoji {
+    position: absolute;
+    font-size: 40px;
+    opacity: 0.8;
+    animation: float 6s linear infinite;
+}
+
+/* Floating Love Emojis */
+.love-emoji {
+    position: absolute;
+    font-size: 40px;
+    opacity: 0.8;
+    animation: float 6s linear infinite;
+}
+
+/* Floating Animation (random movement across the whole page) */
+@keyframes float {
+    0% {
+        transform: translateY(100vh) translateX(0) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-100vh) translateX(calc(20vw - 10vw)) rotate(360deg);
+        opacity: 0;
+    }
+}
